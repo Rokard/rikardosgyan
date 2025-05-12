@@ -113,6 +113,19 @@ footer {
     background-color: #AC7024;
 }
 
+@media screen and (max-width:1600px) {
+
+    aside img {
+        display: block;
+        margin-top: 200px;
+        float: left;
+    }
+
+    article {
+        width: 100%;
+    }
+}
+
 @media screen and (max-width:480px) {
 
     header,
@@ -131,6 +144,7 @@ footer {
 
     aside img {
         width: 100%;
+        margin-top: 0;
     }
 
     footer {
