@@ -13,7 +13,7 @@ header {
 }
 
 header h1 {
-    font-size: 3.9em;
+    font-size: 3.5em;
     padding: 25px 0px 0px 20px;
 }
 
@@ -103,6 +103,10 @@ section p {
     padding: 10px;
 }
 
+hr {
+    color: #243641;
+}
+
 article {
     float: right;
     width: 63%;
@@ -160,6 +164,10 @@ footer {
         margin: 0;
     }
 
+    article {
+        background-color: #E3C69D;
+    }
+
     header p {
         font-size: 1.5em;
     }
@@ -170,6 +178,6 @@ footer {
     }
 
     footer {
-        background-color: #E3C69D;
+        background-color: #AC7024;
     }
 }
