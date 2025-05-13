@@ -13,7 +13,7 @@ header {
 }
 
 header h1 {
-    font-size: 3.4em;
+    font-size: 3.0em;
     padding: 25px 0px 0px 20px;
 }
 
@@ -104,7 +104,7 @@ section p {
 }
 
 hr {
-    border: 1px solid transparent;
+    display: none;
 }
 
 article {
@@ -175,6 +175,11 @@ footer {
     aside img {
         width: 100%;
         margin-top: 0;
+    }
+
+    hr {
+        display: block;
+        border: 1px solid #E3C69D;
     }
 
     footer {
