@@ -25,26 +25,48 @@ header p {
 
 nav {
     background-color: #ECCB8C;
-    height: 100px;
     display: flex;
+    /* Make the nav a flex container */
+    justify-content: space-around;
+    /* Distribute space evenly around items */
     align-items: center;
+    /* Vertically align items in the center (optional) */
+    height: 100px;
+    /* Or your desired height */
 }
 
-nav ul li {
-    display: inline;
-    padding: 20px;
+nav ul {
+    list-style: none;
+    /* Remove bullet points */
+    padding: 0;
+    margin: 0;
+    display: flex;
+    /* Make the ul a flex container for its list items */
+    width: 100%;
+    /* Ensure the ul takes full width within the nav */
+    justify-content: space-around;
+    /* Distribute space evenly around list items */
+    align-items: center;
+    /* Vertically align items in the center (optional) */
 }
 
 nav ul li a {
     text-decoration: none;
     color: #243641;
-    font-size: 2.5rem;
+    font-size: 2rem;
+    /* Optional: Add padding for better touch targets */
+    padding: 0 15px;
+    display: block;
+    /* Make the link a block element to fill the li */
 }
 
-nav ul li a:hover {
-    text-decoration: none;
-    color: #243641;
-    font-size: 2.5rem;
+nav ul li:hover {
+    background-color: #AC7024;
+}
+
+nav ul li:hover a {
+    color: #E3C69D;
+    /* Optionally change the link color on li hover */
 }
 
 aside {
